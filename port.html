@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abisheka Raja | Portfolio</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+        background: #0f172a;
+        color: white;
+        scroll-behavior: smooth;
+    }
+
+    /* HERO */
+    .hero {
+        text-align: center;
+        padding: 100px 20px;
+        animation: fadeIn 2s ease-in;
+    }
+
+    .hero h1 {
+        font-size: 45px;
+        color: #38bdf8;
+    }
+
+    .hero p {
+        margin-top: 10px;
+        font-size: 18px;
+        color: #cbd5e1;
+    }
+
+    .btn {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background: #38bdf8;
+        border: none;
+        color: black;
+        font-weight: bold;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    /* SECTIONS */
+    section {
+        max-width: 900px;
+        margin: auto;
+        padding: 50px 20px;
+    }
+
+    h2 {
+        color: #38bdf8;
+        margin-bottom: 15px;
+    }
+
+    /* CARDS */
+    .card {
+        background: #1e293b;
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        transform: scale(1.03);
+        background: #334155;
+    }
+
+    /* SKILLS */
+    .skills span {
+        display: inline-block;
+        background: #334155;
+        padding: 8px 12px;
+        margin: 5px;
+        border-radius: 8px;
+    }
+
+    a {
+        color: #38bdf8;
+        text-decoration: none;
+    }
+
+    /* ANIMATION */
+    @keyframes fadeIn {
+        from {opacity: 0; transform: translateY(-20px);}
+        to {opacity: 1; transform: translateY(0);}
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #020617;
+        margin-top: 20px;
+    }
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>Hi, I'm Abisheka Raja 👋</h1>
+    <p>B.Tech IT Student | Aspiring Full Stack Developer</p>
+    <a href="#contact"><button class="btn">Contact Me</button></a>
+</div>
+
+<!-- ABOUT -->
+<section>
+    <h2>👨‍💻 About Me</h2>
+    <p>
+        I am a B.Tech Information Technology student passionate about software development,
+        problem-solving, and building real-world applications. I am currently preparing for IT placements
+        and improving my full-stack development skills through hands-on projects.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section>
+    <h2>💻 Technical Skills</h2>
+    <div class="skills">
+        <span>🐍 Python</span>
+        <span>☕ Java</span>
+        <span>🌐 HTML</span>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section>
+    <h2>📁 Projects</h2>
+
+    <div class="card">
+        <h3>Infosys Internship Project</h3>
+        <p>Worked on real-world software development tasks during internship training.</p>
+    </div>
+
+    <div class="card">
+        <h3>Govt Niral Project</h3>
+        <p>Developed a project focused on real-world problem-solving and implementation.</p>
+    </div>
+
+    <div class="card">
+        <h3>Book Summarize App</h3>
+        <p>A simple application to summarize books and extract key points.</p>
+    </div>
+
+    <div class="card">
+        <h3>Summer Internship Project</h3>
+        <p>Hands-on learning experience in software development and coding practices.</p>
+    </div>
+</section>
+
+<!-- CAREER GOALS -->
+<section>
+    <h2>🎯 Career Goals</h2>
+    <div class="card">
+        <p>✔ Become a Software Developer / Full Stack Engineer</p>
+        <p>✔ Build scalable real-world applications</p>
+        <p>✔ Improve coding and problem-solving skills</p>
+        <p>✔ Grow into a strong industry-ready engineer</p>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>📬 Contact</h2>
+    <div class="card">
+        <p>📧 Email: rajaabisheka15@gmail.com</p>
+        <p>🐙 GitHub: <a href="https://github.com/Abisheka-15">Click Here</a></p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Abisheka Raja | Portfolio
+</footer>
+
+</body>
+</html>
