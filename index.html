@@ -57,7 +57,29 @@ body {
     margin-top: 15px;
     line-height: 1.6;
 }
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* circle */
+    object-fit: cover;
 
+    border: 3px solid #38bdf8;
+
+    /* glow effect */
+    box-shadow: 0 0 15px #38bdf8, 
+                0 0 30px #38bdf8;
+
+    transition: 0.4s ease;
+}
+
+/* 🔥 Hover Animation */
+.profile-img:hover {
+    transform: scale(1.1);
+    
+    box-shadow: 0 0 20px #38bdf8,
+                0 0 40px #38bdf8,
+                0 0 60px #38bdf8;
+}
 .btn {
     margin: 10px 10px 0 0;
     padding: 10px 20px;
@@ -68,6 +90,7 @@ body {
     border-radius: 8px;
     cursor: pointer;
 }
+
 /* SKILLS GRID */
 .skills-container {
     display: grid;
@@ -237,7 +260,7 @@ footer {
 <div class="hero">
     <div class="hero-content">
 
-        <img src="C:\users\abisheka\Desktop\Portfolio\profile.jpg.jpeg">
+           <img src="profile.jpg" alt="Abisheka" class="profile-img">
 
         <div class="hero-text">
             <h1>Hi, I'm Abisheka Raja 👋</h1>
